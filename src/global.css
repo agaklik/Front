@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osk-font-smoothing: grayscale
+}
+
+:root {
+    --purple: #61367c;
+    --color-line: #c49fdb;
+    --gray-light: #e1e1e6;
+    --gray-dark: #151583;
+    --color-bg-dark: #30b6d8;
+    --color-bg-light: #9286d6;
+    --color-bg-blueLight: #acabb9;
+    --color-bg-blueDark: #rgb(26, 21, 66);
+    --color-shadow-blue: #3638a5ab;
+    --color-line-contato: #202e80;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #709ae7;
+    color: var(--dark);
+}
+
+body,
+input,
+textarea,
+button {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
